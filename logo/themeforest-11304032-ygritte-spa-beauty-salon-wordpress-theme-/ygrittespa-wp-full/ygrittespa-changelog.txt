@@ -1,0 +1,30 @@
+*** Changelog - YgritteSpa WordPress Theme ***
+----------------------------------------------
+2018.01.31 version 1.3
+---------------------------------------------
+1) visual composer is updated
+2) revolution slider is updated
+----------------------------------------------
+2015.7.15 version 1.2.1
+----------------------------------------------
+1) Language files updated
+----------------------------------------------
+2015.7.3 - version 1.2
+----------------------------------------------
+1) color scheme implemented
+2) boxed and fullwidth implemented
+----------------------------------------------
+2015.6.29 - version 1.1.2
+----------------------------------------------
+1) pretty photo updated
+2) visual composer updated
+----------------------------------------------
+2015.6.17 - version 1.1
+----------------------------------------------
+1) Remove extra shortcodes and files
+2) Menu links issue fixed
+3) google map marker icon not showing issue fixed
+
+----------------------------------------------
+2015.05.8 - version 1.0
+	* First release!
