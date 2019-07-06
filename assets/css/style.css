@@ -90,7 +90,7 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 .navbar.navbar-default { border:none; margin:0px; }
 .main-menu .navbar-nav > li:first-child { background: none; }
 .main-menu .navbar-nav > li { background-image: url(../images/nav-dot.png); background-repeat: no-repeat; background-position: left center; }
-.main-menu { -ms-box-shadow: 0 0 2px 0 #cccccc; -moz-box-shadow: 0 0 2px 0 #cccccc; -webkit-box-shadow: 0 0 2px 0 #cccccc; -o-box-shadow: 0 0 2px 0 #cccccc; box-shadow: 0 0 2px 0 #cccccc; min-height: 60px; border:none; background: #fff; min-height: 120px; }
+.main-menu { -ms-box-shadow: 0 0 2px 0 #cccccc; -moz-box-shadow: 0 0 2px 0 #cccccc; -webkit-box-shadow: 0 0 2px 0 #cccccc; -o-box-shadow: 0 0 2px 0 #cccccc; box-shadow: 0 0 2px 0 #cccccc; min-height: 30px; border:none; background: #fff;}
 .main-menu .navbar-nav > li > a:hover, .main-menu .navbar-nav > li > a:focus { background:none; color:#89c436; }
 .navbar-default .navbar-nav > li > a { background-color: transparent !important; color:#54899c; font-size:16px; font-weight:100; padding-top:0px; padding-bottom:10px; padding-left: 25px; padding-right: 25px; }
 .navbar-default .navbar-nav .hvr-underline-from-left:before { background: #54899c; }
@@ -101,7 +101,7 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 .dropdown-menu>li>a { padding: 15px 20px; color:#54899c; background:none; font-size:16px; font-weight:100; }
 .dropdown-menu>li>a:hover { color:#89c436; }
 /***************slider********************/
-#slider { float: left; width: 100%; padding:120px 0px 0px 0px; }
+#slider { float: left; width: 100%; padding:3em 0px 0px 0px; }
 .slider-grid .item { padding: 0px; position: relative; }
 .slider-grid .item img { width: 100%; }
 .slider-grid .item .text.right { right: 10%; }
@@ -526,4 +526,3 @@ section { padding: 40px 0px; }
 	display: none;
 	visibility: hidden;
 }
-
