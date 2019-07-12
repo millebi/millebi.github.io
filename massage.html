@@ -24,6 +24,25 @@
 	var sections = [];
 //	sections = [ ["team"], ["services"], ["portfolio"], ["clients"], ["blog-list"]  ];
 	</script>
+      <style>
+      #logo {
+        position: absolute;
+        top: 3em;
+        left: 4em;
+        z-index: 100;
+      }
+      #logo img { height: 125px; }
+      @media (max-width: 768px) {
+          #logo {
+	        position: fixed;
+            top: 1em;
+            left: 0;
+            z-index: 10000;
+          }
+          #logo img { height: 50px; }
+        h1 { font-weight: normal; }
+      }
+      </style>
     </head>
 <!--[if IE ]>
    <body class="ie">
@@ -64,6 +83,7 @@
     <!--/.nav-collapse --> 
   </div>
 </div>
+<div id="logo"><a href="" title="logo"><img src="logo/RockwayWellnessClinicRTransparent.png" alt="logo" /></a> </div>
 <section id="slider">
 		<div class="slider-grid">
 
