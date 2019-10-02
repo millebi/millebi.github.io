@@ -21,9 +21,28 @@
 	<script>
 	// Dynamic sections
 	// ["team"], ["contact"], ["services"], ["plans"], ["portfolio"], ["clients"], ["blog-list"]
-	var sections = [["clients"]];
+	var sections = [];
 //	sections = [ ["team"], ["services"], ["portfolio"], ["clients"], ["blog-list"]  ];
 	</script>
+      <style>
+      #logo {
+        position: absolute;
+        top: 3em;
+        left: 4em;
+        z-index: 100;
+      }
+      #logo img { height: 125px; }
+      @media (max-width: 768px) {
+          #logo {
+	        position: fixed;
+            top: 1em;
+            left: 0;
+            z-index: 10000;
+          }
+          #logo img { height: 50px; }
+        h1 { font-weight: normal; }
+      }
+      </style>
     </head>
 <!--[if IE ]>
    <body class="ie">
@@ -40,7 +59,7 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="" title="logo"><img src="assets/images/logo.png" alt="logo" /></a> </div>
+</div>
     <div class="navbar-collapse collapse" id="TopHead">
       <ul class="nav navbar-nav navbar-right" id="menu">
         <li id="mHome"><a class="hvr-underline-from-left" data-options="easing: easeOutQuart" href="index.html#slider">Home</a></li>
@@ -64,28 +83,31 @@
     <!--/.nav-collapse --> 
   </div>
 </div>
+<div id="logo"><a href="" title="logo"><img src="logo/RockwayMTSwirl.png" alt="logo" /></a> </div>
 <section id="slider">
 		<div class="slider-grid">
 
-
+          
                 <div class="col-md-12 col-sm-12 item">
-                      <img src="assets/images/slider/slider-img-4.jpg" alt="gallery">
-                    <div class="text white right">
-                    	<h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">Welcome to <strong>POINTY</strong> <span>STUFF</span></h2>
-                      
-                      <a href="#" data-scroll class="btn main-btn wow fadeUpRight hvr-sweep-to-right" data-wow-duration="1.3s" data-wow-delay="1.3s"><i class="fa fa-angle-right"></i> Learn more</a>
+                      <img src="assets/images/slider/slider-img-1.jpg" alt="gallery">
+                    <div class="text left">
+                    	<h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">Welcome to <strong>Rockway Massage Therapy</strong> <span></span></h2>
                     </div>
                 </div>
 
 
+
                 <div class="col-md-12 col-sm-12 item">
-                      <img src="assets/images/slider/slider-img-3.jpg" alt="gallery">
-                    <div class="text right white">
-                    	<h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">Welcome to <strong>OUCH</strong> <span>AAaaaaaaahhhhh</span></h2>
+                      <img src="assets/images/Building_NoSign_sm.jpg" alt="gallery" style="max-height: 780px">
+                    <div class="text white left">
+                    	<h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">Welcome to <strong>Rockway Massage Therapy</strong> </h2>
                       
-                      <a href="#" data-scroll class="btn main-btn wow fadeInUp hvr-sweep-to-right" data-wow-duration="1.3s" data-wow-delay="1.3s"><i class="fa fa-angle-right"></i> Learn more</a>
+                    
                     </div>
                 </div>
+
+
+                
 
 
             </div>
@@ -100,28 +122,36 @@
                         <img src="assets/images/green-flower.png" alt="green flower">
                         </div>
                     </div>
-                <p class="helping-text wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">Blah blah ACUPUNCTURE! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas, lorem ut suscipit facilisis, nisi neque commodo quam, non pretium dui arcu varius neque.</p>
+                <p class="helping-text wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">Providing pain relief, injury prevention and recovery, performance enhancement, anxiety and stress reduction.</p>
                 
                 <div class="col-md-6 col-sm-12 text-left wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
-                <h3>Welcome to being POKED</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas, lorem ut suscipit facilisis, nisi neque commodo quam, non pretium dui arcu varius neque. Proin nec tortor a velit varius luctus sed ut mauris. Nulla eget ornare nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean blandit erat magna, sit amet accumsan nisl condimentum ac.</p>
-                <p>Duis accumsan arcu non risus sagittis, non pharetra urna pellentesque. Duis sed mauris efficitur, imperdiet lacus vel, rutrum tellus. Maecenas in quam nec libero dignissim pretium eu sit amet arcu. Sed at feugiat nulla. Integer arcu lacus, sodales at vestibulum egestas, consequat iaculis felis. </p>
-                <p>Donec vulputate et nisl a scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ut facilisis nisl. Nullam eros arcu, imperdiet eget magna sit amet, condimentum aliquet erat. Curabitur metus nunc, varius eu velit et, lobortis consequat nisl. In dapibus mi dolor, eget ornare ligula consectetur ut. Morbi mi justo, interdum sit amet orci nec, molestie varius turpis. </p>
+                <h3>Welcome to Rockway&nbsp Massage&nbsp Therapy</h3>
+                <p>Providing care for over 2 decades, Rockway Massage Therapy promotes a healthy lifestyle through not only focusing on pain relief and injury rehabilitation but also on the importance of prevention.  Maintaining wellness requires a proactive approach and regular massage therapy is an integral part of feeling your best. To learn more about your therapist, read on! 
+</p>
+                  <p> Cristina Gruszka has been an RMT since 1996, assisting in recovery over a wide range of conditions. Raised in an active home, healthy living was instilled at an early age. Developing a special interest in fitness and nutrition, combined with a desire to help others led to a career search in the healthcare industry. The importance of strength, agility, and flexibility in order to perform activities optimally and to keep the body as fit as possible put a spotlight on massage therapy. Making it a regular part of the wellness routine not only allowed her to continue to do the leisure activities she enjoyed, but also allowed her to be in the hands-on profession of massage therapy for as many years as she has been. "My goal is to provide the care you need so that you can continue to do the things that you love as well!"
+                    
+                    
+                  
+                <p>Treatments are tailored to you and your individual needs. Whether you are looking for help with an injury or condition, or simply want your body to function at its most optimal level,  contact Cristina for an experienced hand! 
+ </p>
+                
 				<ul class="list-unstyled arrow-list">
-				  <li><i class="fa fa-chevron-circle-right"></i> Lorem ipsum dolor sit amet</li>
-				  <li><i class="fa fa-chevron-circle-right"></i> Consectetur adipiscing elit</li>
-				  <li><i class="fa fa-chevron-circle-right"></i> Integer molestie lorem at massa</li>
-				  <li><i class="fa fa-chevron-circle-right"></i> Facilisis in pretium nisl aliquet</li>
-				  <li><i class="fa fa-chevron-circle-right"></i> Faucibus porta lacus fringilla vel</li>
-				  <li><i class="fa fa-chevron-circle-right"></i> Aenean sit amet erat nunc</li>
-				  <li><i class="fa fa-chevron-circle-right"></i> Eget porttitor lorem</li>
+				  <li><i class="fa fa-chevron-circle-right"></i> Pain Relief
+				  <li><i class="fa fa-chevron-circle-right"></i> Injury Rehabiliation
+				  <li><i class="fa fa-chevron-circle-right"></i> Stress Management
+				  <li><i class="fa fa-chevron-circle-right"></i> Injury Prevention
+				  <li><i class="fa fa-chevron-circle-right"></i> Improved Performance
+				  <li><i class="fa fa-chevron-circle-right"></i> General Wellness
+				  <li><i class="fa fa-chevron-circle-right"></i> Deep Tissue Massage and Fascial Release </li>
 				</ul>
+                  
+                  <p>Direct billing to your insurance company is available saving you the time and hassle!</p>
 				
                 </div>
 				<div class="col-md-6 col-sm-12 wow bounceIn" data-wow-duration="0.9s" data-wow-delay="0.9s">
                 
 					<div class="circle-img green">
-                    	<img src="assets/images/about-img-1.png" class="hvr-rotate" alt=" green ">
+                    	<img src="assets/images/FrontDesk_sm.jpg" class="hvr-rotate" alt=" green ">
                     </div>
                     <div class="circle-img blue">
                     	<img src="assets/images/about-img-2.png" class="hvr-rotate" alt=" blue ">
@@ -144,6 +174,28 @@
 </section>        
  <section id="clients" data-hide="true">
 </section>
+     
+     <section id="clients" data-hide="false">
+       <h2 class="heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Hours</h2>
+                      <div class="separator_wrapper wow bounceIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                        <div class="separator_first_circle">
+                        <img src="assets/images/green-flower.png" alt="green flower">
+                        </div>
+                    </div>
+       Monday 2pm - 8pm
+       Tuesday 10am - 4pm
+       Wednesday 10am- 8pm
+       Thursday 10am - 4pm
+       Friday 10am - 8pm
+       
+       
+       Located in Rockway Wellness Clinic.
+       589 Charles Street East (Corner of Charles & Ottawa)
+       
+       
+       For further information or to request an appointment, email rockwaymt@gmail.com
+       or leave a message at 519-749-0123. Look forward to hearing from you!
+</section>
 <section id="blog-list" data-hide="true">
 </section>
 <section id="contact" data-hide="true">
@@ -155,18 +207,7 @@
 
    
 <footer>
-	<div class="container">
-    	<ul class="list-inline social">
-          <li class="wow bounceIn" data-wow-duration="0.5s" data-wow-delay="0.5s"><a href="#"><img src="assets/images/social-icons/facebook.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="0.6s" data-wow-delay="0.6s"><a href="#"><img src="assets/images/social-icons/twitter.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="0.7s" data-wow-delay="0.7s"><a href="#"><img src="assets/images/social-icons/googleplus.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="0.8s" data-wow-delay="0.8s"><a href="#"><img src="assets/images/social-icons/flickr.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="0.9s" data-wow-delay="0.9s"><a href="#"><img src="assets/images/social-icons/linkedin.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1s"><a href="#"><img src="assets/images/social-icons/vimeo.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="1.1s" data-wow-delay="1.1s"><a href="#"><img src="assets/images/social-icons/youtube.png" alt="green flower"></a></li>
-          <li class="wow bounceIn" data-wow-duration="1.2s" data-wow-delay="1.2s"><a href="#"><img src="assets/images/social-icons/sharethis.png" alt="green flower"></a></li>
-        </ul>
-    </div>
+	
     <div class="foot-line">
     	<p>&copy; 2015 Ygritte PSD Template. Designed by <a href="#"><strong>CreativeMonkie.</strong></a></p>
     </div>

@@ -275,7 +275,7 @@ color: #666;
 .locations .list-unstyled li { font-weight: 300; font-size: 19px; line-height: 36px; color: #fff; }
 .locations .list-unstyled li a { color: #fff; }
 .map { float: left; width: 100%; height: 580px; padding: 0px; }
-.map #contact_mapw { width: 100%; height: 100%; background-image:url("../images/map-wellness.png"); background-position: center; }
+.map #contact_mapw { width: 100%; height: 25em; background-image:url("../images/map-wellness.png"); background-position: center; }
 .map #contact_map { width: 100%; height: 100%; background-image:url("../images/map.png"); background-position: center; }
 .map-info { margin: 0px; padding: 10px; }
 .help-block { text-align:left; }
