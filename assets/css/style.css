@@ -282,6 +282,8 @@ color: #666;
 .has-error .form-control:focus { box-shadow:none; }
 .has-success .form-control:focus { box-shadow:none; }
 .form-group .error { color: #f50; text-align:left; display:block; margin-top:5px; }
+/**************************COVID*********************************/
+#COVID { float: left; width: 100%; background:#fff; }
 /**************************footer*********************************/
 footer { padding:70px 0px 0px 0px; text-align: center; background-image: url(../images/footer-bg.jpg); background-size:cover; background-position:center center; width:100%; float:left; }
 footer .design-by { font-size:16px; color:#fff; line-height: 40px; text-align:right; }
