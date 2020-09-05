@@ -138,11 +138,15 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 .members-grid { margin-top:50px; }
 .members-grid .thumbnail { border:none; padding:0px; border-radius:0px; margin-bottom:0px; }
 .members-grid .thumbnail .img-wrap { position: relative; margin-bottom: 30px; min-height: 252px; width: 100%; overflow: hidden; height: auto; border-radius: 50%; background-image: url(../images/members/team-m-bg.png); background-repeat: no-repeat; background-position: center center; }
-.members-grid .thumbnail .img-wrap a { border-radius:50%; position: absolute; left: 45px; top: 35px; height: 201px; width: 201px; }
+.members-grid .thumbnail .img-wrap a { border-radius:50%; top: 0px; }
+@media (min-width: 768px) {
+	.members-grid .thumbnail .img-wrap a { border-radius:50%; top: 35px; }
+}
+/* .members-grid .thumbnail .img-wrap a { border-radius:50%; position: absolute; left: 55px; top: 35px; height: 201px; width: 201px; } */
 .members-grid .thumbnail img { margin:0px; height: auto; padding:0px; border-radius:50%; }
 .drop-panel { padding:0px !important; }
 .members-grid .thumbnail .img-wrap:hover img { opacity: 0.8; }
-.members-grid .caption { margin-top:0px; background:none; padding:0px; }
+.members-grid .caption { margin-top:0px; background:none; padding:0px; min-height: 15em;}
 .members-grid .caption h3 { font-size:36px; color:#74787a; font-weight:300; line-height:36px; margin-bottom:10px; }
 .members-grid .caption h4 { font-size:18px; color:#89c436; font-weight:400; margin-bottom:15px; }
 .members-grid .caption p { font-size:15px; color:#74787a; font-weight:400; margin-bottom: 25px; line-height: 24px; }
@@ -405,7 +409,7 @@ color: #314960;
 #numbers li h4 { font-size: 50px; }
 #numbers li h5 { font-size: 30px; }
 .portfolio-items.col-4 > li { width: 24.97%; }
-.members-grid .thumbnail img { width: 170px; margin: 50px 0px 0px 20px; }
+.members-grid .thumbnail img { width: 170px; margin: 0 0 0 auto; }
 .members-grid .thumbnail .img-wrap { background-size: contain; }
 }
 @media (max-width: 768px) {
