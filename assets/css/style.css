@@ -120,7 +120,7 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span { background: #89c436; }
 .slider-grid .hvr-sweep-to-right:before { background: #75b6ce; border-radius: 4px; }
 /****************about*******************/
-#about { float: left; width: 100%; background-color: #f8faf5; padding: 65px 0px 0px 0px; }
+#about { float: left; width: 100%; padding: 65px 0px 0px 0px; }
 .circle-img { padding: 8px; width: 400px; height: 400px; background: rgba(255, 255, 255, 0.6); border-radius: 50%; }
 .circle-img:hover { opacity: 0.7; }
 .circle-img img { border-radius: 50%; }
@@ -134,7 +134,7 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 #numbers li h5 { margin: 0px; font-size:36px; font-weight:300; color: #fff; }
 #numbers li span { font-size:56px; font-weight:700; color: #497180; }
 /**************************Team*********************************/
-#team { float: left; width: 100%; background:#fff; }
+#team { float: left; width: 100%; }
 .members-grid { margin-top:50px; }
 .members-grid .thumbnail { border:none; padding:0px; border-radius:0px; margin-bottom:0px; }
 .members-grid .thumbnail .img-wrap { position: relative; margin-bottom: 30px; min-height: 252px; width: 100%; overflow: hidden; height: auto; border-radius: 50%; background-image: url(../images/members/team-m-bg.png); background-repeat: no-repeat; background-position: center center; }
@@ -151,7 +151,7 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 .hvr-reveal:active:before, .hvr-reveal:focus:before, .hvr-reveal:hover:before { border-radius:50%; border-width: 8px; }
 .hvr-reveal:before { z-index: 2; border-color: #89c436; border-radius: 50%; }
 /**************************services*********************************/
-#services { float: left; width: 100%; background:#f8faf5; }
+#services { float: left; width: 100%; }
 .services-grid .img-wrap { float: left; width: 100%; }
 .services-grid .img-wrap a { float: left; width: 100%; overflow: hidden; }
 .services-grid .img-wrap img { -webkit-transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.3s ease-in-out 0s; -ms-transition: all 0.3s ease-in-out 0s; -o-transition: all 0.3s ease-in-out 0s; transition: all 0.3s ease-in-out 0s; float: left; width: 100%; height: auto; }
@@ -230,7 +230,7 @@ section h3 { margin-top: 0px; font-size: 32px; color: #74787a; font-weight: 400;
 #booking i.fa { color: #5d8525; font-size: 48px; }
 #booking p strong { font-size: 48px; line-height: 60px; font-weight: 400; color: #5d8525; font-family: 'Courgette', sans-serif; }
 /**************************clients*********************************/
-#clients { float: left; width: 100%; background:#f8faf5; }
+#clients { float: left; width: 100%; }
 .clients-grid .media { float: left; width: 100%; margin: 0px; }
 .clients-grid .media .media-left { padding: 0px; margin: 0px; }
 .clients-grid .media .media-left a { float: left; width: 100%; }
@@ -283,7 +283,10 @@ color: #666;
 .has-success .form-control:focus { box-shadow:none; }
 .form-group .error { color: #f50; text-align:left; display:block; margin-top:5px; }
 /**************************COVID*********************************/
-#COVID { float: left; width: 100%; background:#fff; }
+#COVID { float: left; width: 100%; }
+/**************************sections alternating*********************************/
+section:nth-child(odd) { background-color: #f8faf5; }
+section:nth-child(even) { background-color: #fff; }
 /**************************footer*********************************/
 footer { padding:70px 0px 0px 0px; text-align: center; background-image: url(../images/footer-bg.jpg); background-size:cover; background-position:center center; width:100%; float:left; }
 footer .design-by { font-size:16px; color:#fff; line-height: 40px; text-align:right; }
